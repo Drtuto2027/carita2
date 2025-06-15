@@ -13,7 +13,7 @@ class Lienzo():
         elif (event.keysym == "Down"):
              self.y+=10
         cara = self.lienzo.create_oval(275+self.x,275+self.y, 425+self.x,425+self.y, fill="yellow", width=2, tags="cara", outline="green")
-        ojoIzq = self.lienzo.create_oval(305+self.x,290,335+self.x,350, fill="black", tags="ojos")
+        ojoIzq = self.lienzo.create_oval(304+self.x,290,335+self.x,350, fill="black", tags="ojos")
         ojoDer = self.lienzo.create_oval(365+self.x,290,395+self.x,350, fill="black", tags="ojos")
         if(self.estado == True):
                 boca = self.lienzo.create_arc(305+self.x, 370, 395+self.x, 410, start=0, extent=180, tags="boca")
